@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/meditation.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kashish Poudel | Meditation & Creative Expression</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Welcome Modal -->
+    <div id="welcome-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Welcome to My Mindful Journey</h2>
+        <p>I'm Kashish Poudel, an artist and meditator exploring the connection between mindfulness and creative expression.</p>
+        <p>This space is dedicated to sharing my journey through art, meditation, and nature. I hope you find inspiration and tranquility here.</p>
+        
+        <div class="newsletter-signup">
+          <h3>Join My Newsletter</h3>
+          <p>Subscribe to receive updates on new artwork, meditation insights, and upcoming events.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your Email Address" required>
+            <button class="btn newsletter-btn">Subscribe</button>
+          </div>
+        </div>
+        
+        <button class="btn modal-btn">Begin the Journey</button>
+      </div>
+    </div>
+    
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Kashish Poudel</div>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#passions">My Passions</a>
+            <a href="#art">Artwork</a>
+            <a href="#meditation">Meditation</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <section class="hero">
+      <div class="hero-slider">
+        <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80')"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1945&q=80')"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Where Art Meets Mindfulness</h1>
+          <p>Exploring the connection between creative expression and inner peace through meditation, art, and nature.</p>
+          <a href="#passions" class="btn pulse-btn">Explore My Journey</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text fade-in">
+            <h2>About Me</h2>
+            <p>I am Kashish Poudel, a passionate artist and dedicated meditator who finds inspiration in the harmony between mindfulness and creative expression. My journey began as a search for inner peace and evolved into a lifelong exploration of art, nature, and spiritual growth.</p>
+            <p>Through my various creative outlets and mindfulness practices, I strive to capture the essence of presence and the beauty that exists in every moment. Whether I'm painting landscapes inspired by my hikes, practicing yoga at sunrise, or capturing the world through my camera lens, I seek to share the profound connection between inner stillness and outward creation.</p>
+            <div class="social-links about-social">
+              <a href="https://facebook.com/kashishpoudel" target="_blank" class="social-link">Facebook</a>
+              <a href="https://instagram.com/kashishpoudel" target="_blank" class="social-link">Instagram</a>
+              <a href="https://youtube.com/kashishpoudel" target="_blank" class="social-link">YouTube</a>
+            </div>
+            <a href="#passions" class="btn">Discover My Passions</a>
+          </div>
+          <div class="about-image fade-in">
+            <img src="https://images.unsplash.com/photo-1536746803623-cef87080bfc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="Meditation in nature">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="passions" class="passions">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>My Passions & Interests</h2>
+          <p>Exploring the many dimensions of creativity and mindfulness</p>
+        </div>
+        
+        <div class="passions-container">
+          <div class="passion-item fade-in" data-passion="meditation">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Meditation">
+            </div>
+            <div class="passion-overlay">
+              <h3>Meditation</h3>
+              <p>My foundation for creative expression and inner peace</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="yoga">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80" alt="Yoga">
+            </div>
+            <div class="passion-overlay">
+              <h3>Yoga</h3>
+              <p>Harmonizing body, mind, and spirit through movement</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="painting">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80" alt="Painting">
+            </div>
+            <div class="passion-overlay">
+              <h3>Painting & Drawing</h3>
+              <p>Expressing inner visions through color and form</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="hiking">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Hiking">
+            </div>
+            <div class="passion-overlay">
+              <h3>Hiking & Mountains</h3>
+              <p>Finding inspiration and perspective in nature</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="photography">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Photography">
+            </div>
+            <div class="passion-overlay">
+              <h3>Photography & Videography</h3>
+              <p>Capturing moments of beauty and presence</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="mixedmedia">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1547333590-47fae5f58d21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Mixed Media Art">
+            </div>
+            <div class="passion-overlay">
+              <h3>Mixed Media Art</h3>
+              <p>Combining elements to create unified expressions</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Passion Modals -->
+        <div id="meditation-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Mindfulness Meditation</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Meditation">
+              </div>
+              <div class="modal-text">
+                <p>My daily meditation practice forms the foundation of my creative life. Through mindfulness and presence, I've discovered a deeper connection to my artistic expression and a profound sense of inner peace that infuses all aspects of my life.</p>
+                <p>Mindfulness meditation is at the core of my practice—the art of paying attention to the present moment with openness, curiosity, and acceptance. This practice has transformed how I perceive the world, allowing me to notice subtle details, appreciate fleeting moments, and find extraordinary beauty in ordinary things.</p>
+                <p>I practice various forms of meditation including:</p>
+                <ul>
+                  <li><strong>Mindfulness meditation</strong> - Cultivating present-moment awareness</li>
+                  <li><strong>Loving-kindness meditation</strong> - Developing compassion for self and others</li>
+                  <li><strong>Transcendental meditation</strong> - Accessing deeper states of consciousness</li>
+                  <li><strong>Walking meditation</strong> - Bringing mindfulness to movement</li>
+                </ul>
+                <p>Each of these practices offers unique insights and perspectives that enrich my creative process and daily life. Through consistent practice, I've found that the boundary between meditation and art becomes beautifully blurred—both are paths to presence, awareness, and connection with something larger than ourselves.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="yoga-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Yoga Practice</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80" alt="Yoga">
+              </div>
+              <div class="modal-text">
+                <p>Yoga is my moving meditation, a practice that harmonizes body, mind, and spirit. Through asanas, breathwork, and mindful movement, I cultivate a sense of balance and flow that directly influences my artistic expression.</p>
+                <p>My yoga journey began as a complement to meditation, but quickly became a profound practice in its own right. On the mat, I discover new dimensions of presence, patience, and the delicate balance between effort and surrender—principles that guide both my creative work and spiritual path.</p>
+                <p>My practice ranges from vigorous vinyasa flows to restorative yin sessions, each offering unique benefits that support my creative endeavors and overall wellbeing. I'm particularly drawn to practices that emphasize the meditative aspects of yoga, where each posture becomes an opportunity to explore sensations, emotions, and the subtle energies of the body.</p>
+                <p>Through yoga, I've learned that the body holds wisdom that the mind alone cannot access—a truth that continually informs and enriches my artistic process.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="painting-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Painting & Drawing</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80" alt="Painting">
+              </div>
+              <div class="modal-text">
+                <p>My artistic practice is a form of meditation in itself. Whether working with oils, watercolors, or simple pencil sketches, I find that the creative process mirrors the journey of mindfulness—requiring presence, patience, and a willingness to embrace imperfection.</p>
+                <p>I draw inspiration from nature, dreams, and the subtle interplay of light and shadow in everyday moments, seeking to capture not just the visual essence but the feeling and energy of my subjects. My work often explores the liminal spaces between the seen and unseen, the tangible and intangible, reflecting my interest in the deeper dimensions of consciousness that meditation reveals.</p>
+                <p>Through years of practice, I've developed a style that balances technical skill with intuitive expression, allowing each piece to evolve organically through a dialogue between intention and surrender. This approach has taught me that the most compelling art emerges when we create from a place of authentic presence rather than rigid control—a lesson that continues to deepen through my meditation practice.</p>
+                <p>Whether I'm working on a large canvas or in the intimate space of a sketchbook, I approach each creative session as an opportunity to drop into the timeless flow state where art and meditation become one.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="hiking-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Hiking & Mountains</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Hiking">
+              </div>
+              <div class="modal-text">
+                <p>The mountains are my sanctuary and greatest teacher. Through hiking and wilderness exploration, I connect with the raw beauty and wisdom of nature, finding endless inspiration for my artwork and a profound sense of perspective that grounds my spiritual practice.</p>
+                <p>Each trail offers new vistas, challenges, and moments of awe that remind me of the delicate balance between effort and surrender—a principle that guides both my creative work and meditation practice. In the mountains, I practice a walking meditation that attunes me to the rhythms of the natural world and my own breath, creating a seamless connection between inner and outer landscapes.</p>
+                <p>The mountains have taught me patience, resilience, and humility—qualities that serve me equally well in my artistic pursuits and spiritual path. They remind me that transformation happens gradually, through consistent effort and a willingness to embrace both the summit views and the challenging climbs that lead to them.</p>
+                <p>Many of my most inspired creative ideas have come during or after wilderness journeys, when my mind has been cleared by physical exertion and my senses awakened by the pristine beauty of natural environments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="photography-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Photography & Videography</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Photography">
+              </div>
+              <div class="modal-text">
+                <p>Through the lens of my camera, I practice the art of seeing—truly seeing—the world around me. Photography and videography have become extensions of my meditation practice, training me to notice subtle details, fleeting moments, and the extraordinary beauty in ordinary things.</p>
+                <p>I'm particularly drawn to capturing the interplay of light and shadow, the textures of natural landscapes, and authentic human moments that reveal our shared connection and humanity. My approach to photography is contemplative and intuitive, allowing images to emerge from a place of presence rather than pursuing them with a predetermined agenda.</p>
+                <p>In videography, I explore the dimension of time and movement, creating visual meditations that invite viewers to slow down and immerse themselves in the flow of experience. Many of my video pieces incorporate elements of my meditation practice, offering viewers a window into states of awareness that words alone cannot convey.</p>
+                <p>Both photography and videography have taught me that the most compelling images arise not from technical perfection but from authentic connection with the subject—a principle that parallels the insights gained through meditation and mindfulness.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="mixedmedia-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Mixed Media Art</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1547333590-47fae5f58d21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Mixed Media Art">
+              </div>
+              <div class="modal-text">
+                <p>My exploration of mixed media art allows me to transcend traditional boundaries and combine various elements—natural materials, textiles, paint, and found objects—into cohesive expressions that reflect the interconnected nature of all things.</p>
+                <p>This practice has taught me to embrace experimentation, happy accidents, and the beauty of imperfection—lessons that parallel the wisdom I've gained through meditation and mindfulness. Working with diverse materials and techniques creates a rich dialogue between different modes of expression, much like the varied practices that comprise my spiritual path.</p>
+                <p>I'm particularly interested in incorporating elements from the natural world—leaves, stones, wood, and earth—into my mixed media pieces, creating a tangible connection between my art and the landscapes that inspire it. These natural materials carry their own histories and energies, adding layers of meaning that purely synthetic materials cannot provide.</p>
+                <p>Through mixed media art, I've discovered that limitations often spark the most creative solutions and that the juxtaposition of seemingly disparate elements can reveal unexpected harmonies—insights that continue to inform both my artistic practice and spiritual journey.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="art" class="art-gallery">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>My Artwork</h2>
+          <p>A visual journey through meditation, nature, and creative expression</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1945&q=80" alt="Abstract Painting">
+            <div class="gallery-overlay">
+              <h3>Inner Landscapes</h3>
+              <p>Oil on canvas</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Watercolor Mountains">
+            <div class="gallery-overlay">
+              <h3>Mountain Whispers</h3>
+              <p>Watercolor</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="Meditation Art">
+            <div class="gallery-overlay">
+              <h3>Stillness Speaks</h3>
+              <p>Mixed media</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1615184697985-c9bde1b07da7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Nature Sketch">
+            <div class="gallery-overlay">
+              <h3>Forest Dreams</h3>
+              <p>Charcoal and ink</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1578301978018-3005759f48f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="Abstract Art">
+            <div class="gallery-overlay">
+              <h3>Cosmic Flow</h3>
+              <p>Acrylic on canvas</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1582201942988-13e60e4556ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Mandala Art">
+            <div class="gallery-overlay">
+              <h3>Sacred Geometry</h3>
+              <p>Ink and gold leaf</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Landscape Painting">
+            <div class="gallery-overlay">
+              <h3>Twilight Valley</h3>
+              <p>Oil on canvas</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1618331835717-801e976710b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" alt="Portrait Drawing">
+            <div class="gallery-overlay">
+              <h3>Inner Light</h3>
+              <p>Charcoal and white chalk</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1579783928621-7a13d66a62b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Abstract Art">
+            <div class="gallery-overlay">
+              <h3>Ethereal Currents</h3>
+              <p>Fluid acrylic</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1549490349-8643362247b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Nature Art">
+            <div class="gallery-overlay">
+              <h3>Autumn Whispers</h3>
+              <p>Mixed media collage</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1578301978162-38808a54d7b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="Abstract Painting">
+            <div class="gallery-overlay">
+              <h3>Celestial Dance</h3>
+              <p>Oil and metallic leaf</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1574182245530-967d9b3831af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80" alt="Meditation Art">
+            <div class="gallery-overlay">
+              <h3>Breath of Silence</h3>
+              <p>Watercolor and ink</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="meditation" class="meditation">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Mindfulness Meditation</h2>
+          <p>The foundation of my creative practice and daily life</p>
+        </div>
+        
+        <div class="meditation-content">
+          <div class="meditation-text fade-in">
+            <p>Mindfulness meditation is not just a practice but a way of life that infuses everything I create. Through daily sitting practice, mindful movement, and conscious awareness, I've discovered that the boundary between meditation and art is beautifully blurred.</p>
+            <p>My meditation journey began over a decade ago as a way to manage stress, but quickly evolved into a profound exploration of consciousness and creativity. I've found that the states of awareness accessed through meditation directly enhance my artistic vision, allowing me to see beyond surface appearances to the underlying patterns and energy of life.</p>
+            <p>Whether I'm sitting in formal practice, hiking mindfully through mountain trails, or losing myself in the flow of painting, I'm continually amazed by how these seemingly different activities arise from the same source—present moment awareness and the willingness to see things as they truly are.</p>
+          </div>
+          
+          <div class="meditation-gallery fade-in">
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80" alt="Meditation in nature">
+            </div>
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Meditation by the lake">
+            </div>
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Meditation with incense">
+            </div>
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" alt="Meditation in mountains">
+            </div>
+          </div>
+          
+          <div class="meditation-practices fade-in">
+            <h3>My Meditation Practices</h3>
+            <div class="practices-grid">
+              <div class="practice-item">
+                <h4>Mindfulness</h4>
+                <p>Cultivating present-moment awareness through focused attention on breath, sensations, and thoughts.</p>
+              </div>
+              <div class="practice-item">
+                <h4>Loving-Kindness</h4>
+                <p>Developing compassion for self and others through directed well-wishing and heart-centered practice.</p>
+              </div>
+              <div class="practice-item">
+                <h4>Walking Meditation</h4>
+                <p>Bringing mindful awareness to each step, connecting with the earth and the rhythm of movement.</p>
+              </div>
+              <div class="practice-item">
+                <h4>Creative Meditation</h4>
+                <p>Using art-making as a meditative process, allowing intuition to guide creative expression.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Get In Touch</h2>
+          <p>Connect with me about art, meditation, or collaboration opportunities</p>
+        </div>
+        
+        <div class="contact-content">
+          <div class="contact-info fade-in">
+            <h3>Let's Connect</h3>
+            <p>I'm always open to discussing art, meditation practices, or potential collaborations. Whether you're interested in purchasing artwork, joining a meditation session, or simply sharing your own creative journey, I'd love to hear from you.</p>
+            <p>Based in the beautiful mountains of Nepal, I'm available for in-person workshops, virtual sessions, and art commissions.</p>
+            <div class="social-links">
+              <a href="https://facebook.com/kashishpoudel" target="_blank">Facebook</a>
+              <a href="https://instagram.com/kashishpoudel" target="_blank">Instagram</a>
+              <a href="https://youtube.com/kashishpoudel" target="_blank">YouTube</a>
+            </div>
+          </div>
+          
+          <div class="contact-form fade-in">
+            <form>
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <input type="text" placeholder="Subject">
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Kashish Poudel</h3>
+            <p>Exploring the intersection of meditation, nature, and creative expression through various artistic mediums and mindfulness practices.</p>
+            <div class="social-links footer-social">
+              <a href="https://facebook.com/kashishpoudel" target="_blank">Facebook</a>
+              <a href="https://instagram.com/kashishpoudel" target="_blank">Instagram</a>
+              <a href="https://youtube.com/kashishpoudel" target="_blank">YouTube</a>
+            </div>
+          </div>
+          
+          <div class="footer-column quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#passions">My Passions</a></li>
+              <li><a href="#art">Artwork</a></li>
+              <li><a href="#meditation">Meditation</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="copyright">
+          <p>&copy; 2025 Kashish Poudel. All rights reserved.</p>
+          <p>&copy; Created by Keshav Poudel.</p>
+            
+        </div>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
